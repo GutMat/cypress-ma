@@ -22,7 +22,6 @@ Właściwość: Wykonanie transakcji na nowym koncie użytkownika
         Wtedy Powinienem zobaczyć ekran powitalny
 
     Scenariusz: Wprowadzenie danych nowego użytkownika na ekranie startowym
-        Gdy Jestem na ekranie powitalnym
         Kiedy Loguje się po raz pierwszy
         Wtedy Powinienem zobaczyć formularz startowy
         Kiedy Rozpocznę wypełnianie formularza

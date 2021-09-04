@@ -99,6 +99,7 @@ describe("Wykonanie transakcji na nowym koncie użytkownika", () => {
       .as("transactionSubmitRequestButton")
       .should("not.have.attr", "disabled");
     cy.get("@transactionSubmitRequestButton").click();
+    // Oraz Powinienem zobaczyć powiadomienie o jej poprawnej realizacji
     cy.getBySel("alert-bar-success")
       .should("be.visible")
       .and("have.text", "Transaction Submitted!");
